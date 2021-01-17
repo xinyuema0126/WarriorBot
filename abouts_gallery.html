@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Warrior Bot</title>
+        <meta name="description" content="Get all your ____ questions answered!">
+        <link rel="stylesheet" href="styles.css"/>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <style>
+            .overlay {
+            position: absolute;
+            bottom: 100%;
+            left: 0;
+            right: 0;
+            background-color: #008CBA;
+            overflow: hidden;
+            width: 100%;
+            height:0;
+            transition: .5s ease;
+        }
+        
+        .container-curtain:hover .overlay {
+            bottom: 0;
+            height: 100%;
+        }
+        
+        .text {
+            color: white;
+            font-size: 15px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        </style>
+    </head>
+
+    <body>
+        <!-- Reference: https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_img_thumbnail2&stacked=h -->
+        <!-- Reference: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_slidetop -->
+        <div class="hover">
+            <div class="container">
+                <header class="main-header">
+                    <nav class="nav">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="abouts_gallery.html">ABOUT</a></li>
+                        <li><a href="chat.html">CHAT</a></li>
+                        <li><a href="more.html">MORE RESOURCES</a></li>
+                    </ul>
+                    </nav>
+                             
+                    <h1 class="name name-large">
+                        <img src="images/Untitled_Artwork.jpg" alt="Logo" height="42" width="42" />
+                        Warrior Bot
+                    </h1>
+                </header>
+
+                <div class="row">
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                        <div class="thumbnail">
+                            <div class="container-curtain">
+                                <img src="images/stats.png" alt="Lights" style="width:100%" alt="Avatar">
+                                <div class="caption">
+                                    
+                                    <p></p>
+                                    
+                                </div>
+                                <div class="overlay">
+                                    <div class="text">"Numbers rule the universe." - Pythagoras</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                        <div class="thumbnail">
+                            <div class="container-curtain">
+                                <img src="images/apps.png" alt="Nature" style="width:100%" alt="Avatar">
+                                <div class="caption">
+                                    <p></p>
+                                </div>
+                                <div class="overlay">
+                                    <div class="text">“Knowledge without application is like a book that is never read." - Christopher Crawford</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                        <div class="thumbnail">
+                            <div class="container-curtain">
+                                <img src="images/work.png" alt="Fjords" style="width:100%" alt="Avatar">
+                                <div class="caption">
+                                    <p></p>
+                                </div>
+                                <div class="overlay">
+                                    <div class="text">Any sufficiently advanced technology is equivalent to magic." - Arthur C. Clarke</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                        <div class="thumbnail">
+                            <div class="container-curtain">
+                                <img src="images/inter.png" alt="Fjords" style="width:100%" alt="Avatar">
+                                <div class="caption">
+                                    <p></p>
+                                </div>
+                                <div class="overlay">
+                                    <div class="text">I always felt that I learned more when I was working abroad.” - (Nishita Dewan, Community Operations Manager, Uber)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <section class="content-section container">
+            <h2 class="section-header">What can Warrior Bot help me with?</h2>
+            <h3>Co-op Statistics</h3>
+            <p>Want to learn about the numbers through it all? Whether it be the number of applications you’re allowed to send, 
+                or when the certain deadlines are, ask Warrior Bot about any stats you may want to know about co-op.</p>
+            <h3>Application Process</h3>
+            <p>Confused about how to apply? Warrior Bot can guide you all throughout. From the start where you create 
+                your applications, to the middle where you try and finalize a position, as well as the steps that come after accepting an offer. 
+            </p>
+            <h3>WaterlooWorks</h3>
+            <p>With the vast majority of functions and services provided on WaterlooWorks, it is very easy to get confused and have a bunch of questions. 
+                Warrior Bot can help answer your questions about navigating it, its features, or even just general questions.</p>
+            <h3>Working Internationally</h3>
+            <p>With the ongoing pandemic, many Waterloo students are stuck all over the world. With co-op terms coming and going, it is only natural 
+                that many students have questions about working internationally and the legality of certain situations. Warrior Bot is there to answer all 
+                questions pertaining to this topic as well.</p>   
+        </section>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <footer class="foot">
+            <h3 class="name-small">Warrior Bot</h3>
+        </footer>
+
+    </body>
+</html>

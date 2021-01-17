@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Warrior Bot</title>
+    <meta name="description" content="Get all your ____ questions answered!">
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="abouts_gallery.html">ABOUT</a></li>
+          <li><a href="chat.html">CHAT</a></li>
+          <li><a href="more.html">MORE RESOURCES</a></li>
+        </ul>
+      </nav>
+      <hr>
+      <h1 class="name name-large">
+        <img src="images/Untitled_Artwork.jpg" alt="Logo" height="42" width="42" />
+        Warrior Bot</h1>
+    </header>
+    <section class="content-section container">
+      <h2 class="section-header"></h2>
+      <p>Have questions about Waterloo Co-op, but don't want to go through long wait times for responses? Warrior Bot is the solution for you! Warrior Bot answers all questions with
+        accurate information. Chat with Warrior Bot anytime, anywhere! 
+      </p>
+      <!-- <img src="images/Renus_Logo.jpg" width="150" height="200"> -->
+      <div id="div1" class="fa"></div>
+      <script>
+        function ratestar() {
+          var a;
+          a = document.getElementById("div1");
+          a.innerHTML = "&#xf006;";
+          setTimeout(function () {
+              a.innerHTML = "&#xf123;";
+            }, 1000);
+          setTimeout(function () {
+              a.innerHTML = "&#xf005;";
+            }, 2000);
+        }
+        ratestar();
+        setInterval(ratestar, 3000);
+        </script>
+    
+    <p>Click on the ABOUT tab for more information about how to speak to Warrior Bot. </p>
+    <br>
+    <div id="div2" class="fa"></div>
+    <script>
+      function brakechain() {
+        var b;
+        b = document.getElementById("div2");
+        b.innerHTML = "&#xf0c1;";
+        setTimeout(function () {
+            b.innerHTML = "&#xf127;";
+          }, 1000);
+      }
+      brakechain();
+      setInterval(brakechain, 2000);
+      </script>
+        <p>Navigate to the CHAT tab to meet Warrior Bot and start connecting. </p> 
+      <br>
+      <div id="div3" class="fa"></div>
+      <script>
+        function openfolder() {
+          var a;
+          a = document.getElementById("div3");
+          a.innerHTML = "&#xf114;";
+          setTimeout(function () {
+            a.innerHTML = "&#xf115;";
+          }, 1000);
+        }
+        openfolder();
+        setInterval(openfolder, 2000);
+      </script>
+      <p>The MORE RESOURCES tab will guide you to further information and contacts</p>
+      </section>
+      <br>
+    <footer class="main-footer">
+      <div><h3> Contact Us </h3></div>
+      <div class="container main-footer-container">
+        <h3>Xinyue Ma</h3>
+        <ul class="nav footer-nav">
+         <li>
+          <a href="https://www.linkedin.com/in/xinyue-ma126/" target="_blank">
+            <img src="images/linked-in1.jpg" width=30px height=30px>
+          </a>
+         </li>
+        </ul>
+      </div>
+      <div class="container main-footer-container">
+        <h3>Xin Cheng Shen</h3>
+        <ul class="nav footer-nav">
+         <li>
+          <a href="https://www.linkedin.com/in/xin-cheng-shen/" target="_blank">
+            <img src="images/linked-in1.jpg" width=30px height=30px>
+          </a>
+         </li>
+        </ul>
+      </div>
+      <div class="container main-footer-container">
+        <h3>Renuka Ravinder</h3>
+        <ul class="nav footer-nav">
+         <li>
+          <a href="https://www.linkedin.com/in/renuka-ravinder-8124bb16b/" target="_blank">
+            <img src="images/linked-in1.png" width=30px height=30px>
+          </a>
+         </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
